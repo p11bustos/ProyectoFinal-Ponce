@@ -277,8 +277,15 @@ button:hover {
 }
 
 /*estilo a Testimonios*/
+
+.testimonios {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
 .testimonioUno {
-  background: linear-gradient(to left, bisque, cadetblue);
+  background: linear-gradient(to left,  bisque, rgb(220, 208, 147));
   display: inline-block;
   width: 600px;
   height: 600px;
@@ -290,7 +297,7 @@ button:hover {
 }
 
 .testimonioDos {
-  background: linear-gradient(to left, bisque, cadetblue);
+  background: linear-gradient(to left, bisque, rgb(220, 208, 147));
   display: inline-block;
   width: 600px;
   height: 600px;
@@ -302,7 +309,7 @@ button:hover {
 }
 
 .testimonioTres {
-  background: linear-gradient(to left, bisque, cadetblue);
+  background: linear-gradient(to left,  bisque, rgb(220, 208, 147));
   display: inline-block;
   width: 600px;
   height: 600px;
@@ -314,7 +321,7 @@ button:hover {
 }
 
 .testimonioCuatro {
-  background: linear-gradient(to left, bisque, cadetblue);
+  background: linear-gradient(to left,  bisque, rgb(220, 208, 147));
   display: inline-block;
   width: 600px;
   height: 600px;
@@ -326,7 +333,7 @@ button:hover {
 }
 
 .testimonioCinco {
-  background: linear-gradient(to left, bisque, cadetblue);
+  background: linear-gradient(to left,  bisque, rgb(220, 208, 147));
   display: inline-block;
   width: 600px;
   height: 600px;
@@ -338,7 +345,7 @@ button:hover {
 }
 
 .testimonioSeis {
-  background: linear-gradient(to left, bisque, cadetblue);
+  background: linear-gradient(to left, bisque, rgb(220, 208, 147));
   display: inline-block;
   width: 600px;
   height: 600px;
