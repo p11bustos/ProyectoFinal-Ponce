@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 footer {
   text-align: center;
   padding: 20px;
@@ -7,6 +8,18 @@ footer {
 .bocaJuniors {
   margin: 0px;
   background-color: bisque;
+}
+
+@media (max-width: 550px) {
+
+  .bocaJuniors {
+      background-color: beige;
+  }
+
+  .tituloPrincipal {
+    background: linear-gradient(to left, bisque,  cadetblue);
+    
+  }
 }
 
 .listadoPaises {
@@ -30,6 +43,11 @@ footer {
   margin-top: 10px;
   margin-bottom: 15px;
   background: linear-gradient(to left, cadetblue, bisque);
+}
+
+.tituloSecundario {
+
+
 }
 
 .videoYoutube {
@@ -59,6 +77,11 @@ footer {
 .tituloWorking {
   font-style: oblique;
 }
+
+.tituloCiudadania {
+  font-style: oblique;
+}
+
 
 /*Banderas en pag países*/
 .banderaEspaña {
@@ -244,6 +267,10 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+}
+
 .form-group {
   margin-bottom: 20px;
 }
@@ -278,76 +305,71 @@ button:hover {
 
 /*estilo a Testimonios*/
 
+.testimonios {
+
+  display: block;
+  justify-content: center;
+  margin: 20px;
+  padding: 30%;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+}
+
 .testimonioUno {
+ 
   background: linear-gradient(to left,  bisque, rgb(220, 208, 147));
-  display: inline-block;
   width: 600px;
   height: 600px;
-  border: 5px inset black;
   margin-bottom: 15px;
-  transition: all 2s;
+  border: 5px inset black;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: medium;
 }
 
 .testimonioDos {
   background: linear-gradient(to left, bisque, rgb(220, 208, 147));
-  display: inline-block;
   width: 600px;
   height: 600px;
   border: 5px inset black;
   margin-bottom: 15px;
-  transition: all 2s;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: medium;
+  
 }
 
 .testimonioTres {
   background: linear-gradient(to left,  bisque, rgb(220, 208, 147));
-  display: inline-block;
   width: 600px;
   height: 600px;
   border: 5px inset black;
   margin-bottom: 15px;
-  transition: all 2s;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: medium;
 }
 
 .testimonioCuatro {
   background: linear-gradient(to left,  bisque, rgb(220, 208, 147));
-  display: inline-block;
   width: 600px;
   height: 600px;
   border: 5px inset black;
   margin-bottom: 15px;
-  transition: all 2s;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: medium;
 }
 
 .testimonioCinco {
   background: linear-gradient(to left,  bisque, rgb(220, 208, 147));
-  display: inline-block;
   width: 600px;
   height: 600px;
   border: 5px inset black;
   margin-bottom: 15px;
-  transition: all 2s;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: medium;
 }
 
 .testimonioSeis {
   background: linear-gradient(to left, bisque, rgb(220, 208, 147));
-  display: inline-block;
   width: 600px;
   height: 600px;
   border: 5px inset black;
   margin-bottom: 15px;
-  transition: all 2s;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: medium;
 }
 
 .tituloTestimonios {
@@ -363,6 +385,37 @@ button:hover {
   background: linear-gradient(to left, cadetblue, bisque);
 }
 
+.textoLucas {
+  font-size: large;
+  padding: 15px;
+  }
+  
+  .textoRebord {
+    font-size: large;
+    padding: 15px;
+  }
+  
+  .textoJaz {
+    font-size: large;
+    padding: 15px;
+  }
+  
+  .textoMeli {
+    font-size: large;
+    padding: 15px;
+  }
+  
+  .textoGerman {
+    font-size: large;
+    padding: 15px;
+  }
+  
+  .textoRoman {
+    font-size: large;
+    padding: 15px;
+  }
+  
+
 .paginaTestimonios {
   background-color: bisque;
 }
@@ -370,39 +423,52 @@ button:hover {
 .fotoRebord {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
 }
 
 .fotoLucas {
   width: 200px;
   height: 200px;
   margin-bottom: 10px;
+  border-radius: 50%;
 }
 
 .fotoGerman {
   width: 200px;
   height: 200px;
   margin-bottom: 10px;
+  border-radius: 50%;
 }
 
 .fotoJazmin {
   width: 200px;
   height: 200px;
   margin-bottom: 10px;
+  border-radius: 50%;
 }
 
 .fotoMeli {
   width: 200px;
   height: 200px;
   margin-bottom: 10px;
+  border-radius: 50%;
 }
 
 .fotoRoman {
   width: 200px;
   height: 200px;
   margin-bottom: 10px;
+  border-radius: 50%;
 }
 
 .parrafoPrincipal {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.parrafoSecundario {
   margin-left: 50px;
   margin-right: 50px;
   padding-left: 15px;
@@ -482,42 +548,6 @@ input[type=number] {
 
 .paginaGestiones {
   background-color: bisque;
-}
-
-.testimonioUno:hover {
-  background: linear-gradient(to left, cadetblue, bisque);
-  width: 700px;
-  height: 700px;
-}
-
-.testimonioDos:hover {
-  background: linear-gradient(to left, cadetblue, bisque);
-  width: 700px;
-  height: 700px;
-}
-
-.testimonioTres:hover {
-  background: linear-gradient(to left, cadetblue, bisque);
-  width: 700px;
-  height: 700px;
-}
-
-.testimonioCuatro:hover {
-  background: linear-gradient(to left, cadetblue, bisque);
-  width: 700px;
-  height: 700px;
-}
-
-.testimonioCinco:hover {
-  background: linear-gradient(to left, cadetblue, bisque);
-  width: 700px;
-  height: 700px;
-}
-
-.testimonioSeis:hover {
-  background: linear-gradient(to left, cadetblue, bisque);
-  width: 700px;
-  height: 700px;
 }
 
 .tituloWorking::first-letter {

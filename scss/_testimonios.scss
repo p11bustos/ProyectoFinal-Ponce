@@ -1,7 +1,46 @@
 /*estilo a Testimonios*/
 
+.testimonios {
 
+  display: block;
+  justify-content: center;
+  margin: 20px;
+  padding: 30%;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+}
 
+.textoLucas {
+  font-size: large;
+  padding: 15px;
+  }
+  
+  .textoRebord {
+    font-size: large;
+    padding: 15px;
+  }
+  
+  .textoJaz {
+    font-size: large;
+    padding: 15px;
+  }
+  
+  .textoMeli {
+    font-size: large;
+    padding: 15px;
+  }
+  
+  .textoGerman {
+    font-size: large;
+    padding: 15px;
+  }
+  
+  .textoRoman {
+    font-size: large;
+    padding: 15px;
+  }
+  
 .testimonioUno {
     background: linear-gradient(to left, bisque, cadetblue);
     display: inline-block;
@@ -9,69 +48,52 @@
     height: 600px;
     border: 5px inset black;
     margin-bottom: 15px;
-    transition: all 2s;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: medium;
   }
   
   .testimonioDos {
     background: linear-gradient(to left, bisque, cadetblue);
-    display: inline-block;
     width: 600px;
     height: 600px;
     border: 5px inset black;
     margin-bottom: 15px;
-    transition: all 2s;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: medium;
   }
   
   .testimonioTres {
     background: linear-gradient(to left, bisque, cadetblue);
-    display: inline-block;
     width: 600px;
     height: 600px;
     border: 5px inset black;
     margin-bottom: 15px;
-    transition: all 2s;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: medium;
   }
   
   .testimonioCuatro {
     background: linear-gradient(to left, bisque, cadetblue);
-    display: inline-block;
     width: 600px;
     height: 600px;
     border: 5px inset black;
     margin-bottom: 15px;
-    transition: all 2s;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: medium;
   }
   
   .testimonioCinco {
     background: linear-gradient(to left, bisque, cadetblue);
-    display: inline-block;
     width: 600px;
     height: 600px;
     border: 5px inset black;
     margin-bottom: 15px;
-    transition: all 2s;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: medium;
   }
   
   .testimonioSeis {
     background: linear-gradient(to left, bisque, cadetblue);
-    display: inline-block;
     width: 600px;
     height: 600px;
     border: 5px inset black;
     margin-bottom: 15px;
-    transition: all 2s;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: medium;
   }
   
   
@@ -143,40 +165,3 @@
     width: 50px;
     height: 50px;
   }
-
-  .testimonioUno:hover {
-    background: linear-gradient(to left, cadetblue, bisque);
-    width: 700px;
-    height: 700px;
-  }
-  
-  .testimonioDos:hover {
-    background: linear-gradient(to left, cadetblue, bisque);
-    width: 700px;
-    height: 700px;
-  }
-  
-  .testimonioTres:hover {
-    background: linear-gradient(to left, cadetblue, bisque);
-    width: 700px;
-    height: 700px;
-  }
-  
-  .testimonioCuatro:hover {
-    background: linear-gradient(to left, cadetblue, bisque);
-    width: 700px;
-    height: 700px;
-  }
-  
-  .testimonioCinco:hover {
-    background: linear-gradient(to left, cadetblue, bisque);
-    width: 700px;
-    height: 700px;
-  }
-  
-  .testimonioSeis:hover {
-    background: linear-gradient(to left, cadetblue, bisque);
-    width: 700px;
-    height: 700px;
-  }
-  
